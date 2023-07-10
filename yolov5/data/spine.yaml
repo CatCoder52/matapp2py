@@ -1,0 +1,15 @@
+
+path: /Users/aliasghar/Desktop/Object detection with GRH data/dataset_Int  #  this folder should contain an images folder, labels folder, train.txt, and val.txt
+train: /Users/aliasghar/Desktop/Object detection with GRH data/dataset_Int/images/train  # text file containing paths to training images
+val: /Users/aliasghar/Desktop/Object detection with GRH data/dataset_Int/images/val # text file containing paths to validation images
+#train: train.txt
+#val: val.txt
+# number of classes
+nc: 8  # 10 object classes (4 keypoints for each vertebra + 2 femoral heads)
+
+# class names
+names: ['post_S1_top', 'ant_S1_top',
+        'post_L5_bot', 'ant_L5_bot',
+        'post_L1_top', 'ant_L1_top',
+        'post_FH', 'ant_FH',]
+
